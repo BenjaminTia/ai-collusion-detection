@@ -1,8 +1,5 @@
 # Evaluating Action-Dependence Measures for Collusion Detection in a Four-Agent Game
 
-**Benjamin Harris Chen Tia**  
-Hong Kong Metropolitan University
-
 Research manuscript prepared for the Apart Research AI Collusion Research Sprint.
 
 ## Overview
