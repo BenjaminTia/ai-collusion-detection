@@ -16,6 +16,15 @@ The experiments show that missing context can make an innocent pair look more st
 
 The PDF has a standalone undated cover, double-spaced prose, paragraph separation and hanging reference indents. Figures and equation images are included so the Markdown source retains its linked assets.
 
+## Presentation
+
+![Project schematic: auditing AI coordination](presentation/project-image.png)
+
+- [Editable eight-slide PowerPoint](presentation/research-slides.pptx), with speaker notes for a short research presentation.
+- [Slides as PDF](presentation/research-slides.pdf).
+
+The project image is a conceptual schematic, not an experimental graph. Slide results are drawn from the latest submission PDF and retain the toy-game and single-model limitations.
+
 ## Status and scope
 
 This repository contains the author-edited manuscript and supporting figures prepared for the sprint. It does not establish event submission, peer review or publication acceptance.
