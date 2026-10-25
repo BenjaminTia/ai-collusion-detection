@@ -10,19 +10,19 @@ The experiments show that missing context can make an innocent pair look more st
 
 ## Read the paper
 
-- [PDF manuscript](manuscript.pdf)
+- [Latest submission PDF](manuscript-submission.pdf)
 - [Editable Word manuscript](manuscript.docx)
-- [Markdown source](manuscript.md)
+- [Earlier Markdown drafting source](manuscript.md), retained for provenance; the user-edited Word document and its PDF export supersede this source.
 
 The PDF has a standalone undated cover, double-spaced prose, paragraph separation and hanging reference indents. Figures and equation images are included so the Markdown source retains its linked assets.
 
 ## Status and scope
 
-This private repository is a manuscript archive pending the author's final review. Repository creation does not represent author endorsement, event submission, peer review or publication acceptance.
+This repository contains the author-edited manuscript and supporting figures prepared for the sprint. It does not establish event submission, peer review or publication acceptance.
 
 The complete experimental code and raw evidence remain in the local research project and are not included in this initial archive. This repository alone is therefore not a complete reproduction package. The manuscript's Code and data section describes the project's sprint-time release status, not a claim that this repository contains all experimental artifacts.
 
-The paper includes a factual LLM Usage Statement. Its scientific limitations, artificial scoring rules, single-model scope and small number of independently scheduled trajectories should be read alongside its findings.
+AI assistants contributed to drafting, analysis and document preparation; the Word version was subsequently edited by the author. The artificial scoring rules, single-model scope and small number of independently scheduled trajectories limit the findings.
 
 ## Event
 
