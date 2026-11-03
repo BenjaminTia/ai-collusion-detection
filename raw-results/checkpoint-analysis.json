@@ -1,0 +1,618 @@
+{
+  "source": "C:\\Users\\Benjamin\\iCloudDrive\\Apart AI Collusion Research\\results\\permutation\\runs.csv",
+  "sha256": "3c3900039f0bb7af1493765ba87b534f4fab49c4d5417c8879888f3fc91b11b8",
+  "result_rows": 3200,
+  "cells": [
+    {
+      "condition": "benign",
+      "view": "0.1",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "0.1",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "0.3",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "0.3",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "full",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 1,
+      "permutation_alarms": 4,
+      "wilson95": [
+        0.01566330399154762,
+        0.0983707143588792
+      ],
+      "original_only": 0,
+      "permutation_only": 3,
+      "paired_exact_mcnemar_p": 0.25,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "full",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 39,
+      "permutation_alarms": 4,
+      "wilson95": [
+        0.01566330399154762,
+        0.0983707143588792
+      ],
+      "original_only": 35,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 5.820766091346741e-11,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "none",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "none",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "0.1",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "0.1",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "0.3",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "0.3",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "full",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "full",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "none",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "none",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "0.1",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 3,
+      "permutation_alarms": 3,
+      "wilson95": [
+        0.010254524024038925,
+        0.0845193642905276
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "0.1",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 2,
+      "permutation_alarms": 2,
+      "wilson95": [
+        0.00550196755016235,
+        0.07001179072854388
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "0.3",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 4,
+      "permutation_alarms": 4,
+      "wilson95": [
+        0.01566330399154762,
+        0.0983707143588792
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "0.3",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 4,
+      "permutation_alarms": 4,
+      "wilson95": [
+        0.01566330399154762,
+        0.0983707143588792
+      ],
+      "original_only": 1,
+      "permutation_only": 1,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "full",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 5,
+      "permutation_alarms": 7,
+      "wilson95": [
+        0.03431926106727268,
+        0.137495147390735
+      ],
+      "original_only": 0,
+      "permutation_only": 2,
+      "paired_exact_mcnemar_p": 0.5,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "full",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 5,
+      "permutation_alarms": 5,
+      "wilson95": [
+        0.02154367915436796,
+        0.11175046923191913
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "none",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 6,
+      "permutation_alarms": 6,
+      "wilson95": [
+        0.027786123963188192,
+        0.1247681544589592
+      ],
+      "original_only": 1,
+      "permutation_only": 1,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "none",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 4,
+      "permutation_alarms": 5,
+      "wilson95": [
+        0.02154367915436796,
+        0.11175046923191913
+      ],
+      "original_only": 0,
+      "permutation_only": 1,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "0.1",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "0.1",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "0.3",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "0.3",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "full",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "full",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "none",
+      "method": "cmi",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "none",
+      "method": "net",
+      "n": 100,
+      "original_alarms": 100,
+      "permutation_alarms": 100,
+      "wilson95": [
+        0.9630065017930143,
+        1
+      ],
+      "original_only": 0,
+      "permutation_only": 0,
+      "paired_exact_mcnemar_p": 1.0,
+      "p_rule_disagreements": 0
+    }
+  ],
+  "paired_methods": [
+    {
+      "condition": "benign",
+      "view": "none",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "full",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "0.1",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "benign",
+      "view": "0.3",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "none",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "full",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "0.1",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "combined",
+      "view": "0.3",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "none",
+      "alarm_disagreements": 3,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "full",
+      "alarm_disagreements": 4,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "0.1",
+      "alarm_disagreements": 3,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "independent",
+      "view": "0.3",
+      "alarm_disagreements": 4,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "none",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "full",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "0.1",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    },
+    {
+      "condition": "seeded",
+      "view": "0.3",
+      "alarm_disagreements": 0,
+      "top1_disagreements": 0
+    }
+  ],
+  "scope": "Reanalysis of existing scripted trajectories, not new experiments. Wilson intervals are marginal per cell. McNemar p-values are exploratory, unadjusted; no pooling across views."
+}

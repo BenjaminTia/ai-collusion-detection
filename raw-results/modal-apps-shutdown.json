@@ -1,0 +1,42 @@
+[
+  {
+    "app_id": "ap-f63tqvJH0PB1ysUkDs699k",
+    "description": "apart-collusion-cpu-pilot",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-23 22:04:00+08:00",
+    "stopped_at": "2026-10-23 22:17:21+08:00"
+  },
+  {
+    "app_id": "ap-shXGxL8y0zXpkYfkTFihZo",
+    "description": "apart-collusion-cpu-pilot",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-23 22:02:05+08:00",
+    "stopped_at": "2026-10-23 22:03:18+08:00"
+  },
+  {
+    "app_id": "ap-XNBkUELs98bYtWv5Q4mZUm",
+    "description": "apart-collusion-cpu-pilot",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-23 21:57:00+08:00",
+    "stopped_at": "2026-10-23 21:59:55+08:00"
+  },
+  {
+    "app_id": "ap-GXn15ohe6jmiGGtlhB42Wq",
+    "description": "apart-gpu-probe",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-23 21:55:54+08:00",
+    "stopped_at": "2026-10-23 21:55:57+08:00"
+  },
+  {
+    "app_id": "ap-iQcIfYjkPKfE4TMvAWMXbH",
+    "description": "apart-collusion-llm-pilot",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-23 21:52:32+08:00",
+    "stopped_at": "2026-10-23 21:53:48+08:00"
+  }
+]

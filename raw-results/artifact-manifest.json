@@ -1,0 +1,19 @@
+{
+  "README.md": "bf4841edc492f390f104101d4d686228dfb2fef6adb70ee2ec6620f6af15f0b8",
+  "protocol\\01-protocol.md": "c64e11466b3a48a36f19d022775649d6b6b0257852220ce16e1a417531424bc1",
+  "results\\FIRST-RESULTS.md": "55299877130d9d3160deaa1af1376d27763cb43c099bac8533172b644dfe2ee6",
+  "reviews\\01-user-supplied-second-opinion.md": "e175c8ac714b88e4f820acf404416e0a891978188a81ab03671e54e29e197563",
+  "reviews\\event-note-before-project-link.md": "7e675518ba45f6cf54d441843941412c60c235113ccf5b4eaa67747559992947",
+  "sources\\bonjour22a-supp.md": "dd99915dc7432c94a8aefc90968a1f4bdbcfa5181eee3a743f68c1308d834a0a",
+  "sources\\bonjour22a-supp.pdf": "41ca2b836dc303a5b5e5571e03423ddcd53fb1d21ad30d5784b2b894cb199a8f",
+  "sources\\bonjour22a.md": "fca5bf0e9ef63aec7aed1f38626ac7e63471a770ac2af3a0ab78652609fe057e",
+  "sources\\bonjour22a.pdf": "ba6dbacef222fcf810e63d42865a9d3d8a76e8cd524a15feae3e02eac509812f",
+  "sources\\collusion-net-influence-README.md": "782563afa395c446e9f34f48d88902aee60ace162adddfcaace0dd7adccd114e",
+  "sources\\collusion_hackathon-README.md": "294396f307394433a10b050a8433aed1f195f5e2775b1320556db215429ed649",
+  "src\\experiment.py": "25b7ee90ff7b41c129836837661fdac5eeee56bb817b042a694f26d08e610ca1",
+  "tests\\test_experiment.py": "61df65e68983f0318a06741c544fe12b88a4446690224c772b8c72c2c6077733",
+  "results\\scripted\\metadata.json": "17261e276dde56313309e430eff28aed51d99f5bd7b08865d3cdb6dd350e51fe",
+  "results\\scripted\\runs.csv": "5d1b28cb9bf28f5cd723ffc9ee8e71b8f2bb37cd4e6abb0e34b8d1852c3b9f16",
+  "results\\scripted\\summary.csv": "90a611ddbd6388cba52103a798ad1578c3351e28ff6b414f4b52a3cd0ec44e12",
+  "results\\scripted\\trajectories.jsonl": "66721c1917b5668aead7caa41e1fea5a2a7fea506b1ad78186c918903cedfd45"
+}

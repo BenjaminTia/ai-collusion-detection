@@ -1,0 +1,530 @@
+{
+  "generated_for": "AI Collusion Research Sprint submission",
+  "source_pdf": "C:/Users/Benjamin/Downloads/ai-collusion-detection/manuscript-submission.pdf",
+  "source_pdf_sha256": "14a4d8199f10a3156f196844e9975afb2b3fbd1f8e42322d51e426e22cfed837",
+  "checks": {
+    "project_image": {
+      "path": "C:\\Users\\Benjamin\\Downloads\\ai-collusion-detection\\presentation\\project-image.png",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "bytes": 208967,
+      "sha256": "37caaa63febce364d4b0b1800a6a7f477256a420afbe65fd5b12ed5d1fdd6ffe",
+      "dimensions_ok": true,
+      "luminance_range": [
+        0,
+        255
+      ],
+      "non_blank": true
+    },
+    "pptx_package": {
+      "opens_as_zip": true,
+      "content_types": true,
+      "presentation_xml": true,
+      "slide_parts": 8,
+      "notes_parts": 8,
+      "media": [],
+      "all_parts_well_formed": true
+    },
+    "slides": {
+      "count": 8,
+      "size_inches": [
+        13.333,
+        7.5
+      ],
+      "per_slide": [
+        {
+          "slide": 1,
+          "shapes": 9,
+          "text_boxes": 6,
+          "text_chars": 402,
+          "min_slack_pt": 3.9,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 70
+        },
+        {
+          "slide": 2,
+          "shapes": 24,
+          "text_boxes": 13,
+          "text_chars": 768,
+          "min_slack_pt": 4.6,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 71
+        },
+        {
+          "slide": 3,
+          "shapes": 21,
+          "text_boxes": 13,
+          "text_chars": 979,
+          "min_slack_pt": 4.6,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 80
+        },
+        {
+          "slide": 4,
+          "shapes": 12,
+          "text_boxes": 7,
+          "text_chars": 627,
+          "min_slack_pt": 4.6,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 92
+        },
+        {
+          "slide": 5,
+          "shapes": 17,
+          "text_boxes": 13,
+          "text_chars": 850,
+          "min_slack_pt": 3.8,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 94
+        },
+        {
+          "slide": 6,
+          "shapes": 31,
+          "text_boxes": 23,
+          "text_chars": 853,
+          "min_slack_pt": 2.1,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 89
+        },
+        {
+          "slide": 7,
+          "shapes": 22,
+          "text_boxes": 17,
+          "text_chars": 847,
+          "min_slack_pt": 1.4,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 102
+        },
+        {
+          "slide": 8,
+          "shapes": 32,
+          "text_boxes": 23,
+          "text_chars": 1062,
+          "min_slack_pt": 0.4,
+          "overflowing_text_boxes": [],
+          "out_of_bounds_shapes": [],
+          "has_notes": true,
+          "notes_words": 86
+        }
+      ],
+      "fonts_used": [
+        "Calibri",
+        "Georgia"
+      ],
+      "notes_words_total": 684,
+      "estimated_speaking_minutes": 4.9,
+      "wpm_assumed": 140,
+      "all_text_fits": true,
+      "all_shapes_in_bounds": true,
+      "all_slides_have_notes": true
+    },
+    "charts": [
+      {
+        "slide": 4,
+        "type": "XY_SCATTER_LINES",
+        "points": 8,
+        "x_values": [
+          0.0,
+          0.1,
+          0.15,
+          0.18,
+          0.19,
+          0.2,
+          0.25,
+          0.3
+        ],
+        "y_values": [
+          1.0,
+          1.0,
+          0.98,
+          0.78,
+          0.58,
+          0.38,
+          0.0,
+          0.0
+        ],
+        "matches_manuscript_4_2": true
+      }
+    ],
+    "declared_box_overlaps": {
+      "count": 11,
+      "items": [
+        {
+          "slide": 4,
+          "a": "A shared cue can outrank an instructed p",
+          "b": "Combined condition, coupling 0.8. Benign",
+          "overlap_fraction": 0.18
+        },
+        {
+          "slide": 5,
+          "a": "Delivered is not influential; influentia",
+          "b": "Pilot: 1,440 decisions, 180 assistant si",
+          "overlap_fraction": 0.2
+        },
+        {
+          "slide": 6,
+          "a": "The treatment holds; the sample stays sm",
+          "b": "FRESH SCHEDULES, FROZEN BEFORE COLLECTIO",
+          "overlap_fraction": 0.2
+        },
+        {
+          "slide": 6,
+          "a": "The treatment holds; the sample stays sm",
+          "b": "DETECTOR OUTCOMES (3 TRAJECTORIES PER CE",
+          "overlap_fraction": 0.19
+        },
+        {
+          "slide": 6,
+          "a": "seeded assistant situations mapped to th",
+          "b": "178 / 180",
+          "overlap_fraction": 0.16
+        },
+        {
+          "slide": 6,
+          "a": "combined assistant situations mapped to ",
+          "b": "130 / 180  \u00b7  116 / 180",
+          "overlap_fraction": 0.16
+        },
+        {
+          "slide": 7,
+          "a": "In this game, coordination did not cost ",
+          "b": "EXACT ENUMERATION, ALL 81 PROFILES",
+          "overlap_fraction": 0.2
+        },
+        {
+          "slide": 7,
+          "a": "19 / 27",
+          "b": "expected payoff per player with independ",
+          "overlap_fraction": 0.87
+        },
+        {
+          "slide": 7,
+          "a": "5 / 9",
+          "b": "the same player when one pair follows th",
+          "overlap_fraction": 0.87
+        },
+        {
+          "slide": 7,
+          "a": "1  \u00b7  5/9  \u00b7  7/9",
+          "b": "primary \u00b7 assistant \u00b7 each outsider at f",
+          "overlap_fraction": 0.82
+        },
+        {
+          "slide": 7,
+          "a": "+0.061 seeded   \u00b7   +0.156 combined\nmean",
+          "b": "One seeded trajectory was slightly negat",
+          "overlap_fraction": 0.2
+        }
+      ],
+      "note": "Declared text-frame rectangles overlap where a heading frame is taller than its ink; the rendered ink check (pdf_render.ink_overlaps) is authoritative and is empty."
+    },
+    "fonts": {
+      "font_files": {
+        "Calibri": "calibri.ttf",
+        "Calibri-Bold": "calibrib.ttf",
+        "Georgia": "georgia.ttf",
+        "Georgia-Bold": "georgiab.ttf"
+      },
+      "missing_glyphs": {
+        "Calibri": [],
+        "Georgia": []
+      },
+      "no_missing_glyphs": true
+    },
+    "pdf_render": {
+      "rendered": true,
+      "renderer": "PowerPoint COM (pywin32 SaveAs, 32)",
+      "render_output": "PowerPoint 16.0 COM SaveAs(ppSaveAsPDF)",
+      "ink_overlaps": [],
+      "no_ink_collisions": true,
+      "text_shapes_matched": 115,
+      "text_shapes_total": 115,
+      "pages": 8,
+      "expected_pages": 8,
+      "page_size_ok": true,
+      "text_on_every_page": true,
+      "all_spans_inside_page": true,
+      "rendered_text_inside_boxes": true,
+      "box_overflow": [],
+      "page_details": [
+        {
+          "page": 1,
+          "chars": 445,
+          "words": 97,
+          "spans": 8,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "A I C O L L U S I O N R E S"
+        },
+        {
+          "page": 2,
+          "chars": 824,
+          "words": 166,
+          "spans": 21,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 1 \u00b7 T H E A U D I T Q U E"
+        },
+        {
+          "page": 3,
+          "chars": 1040,
+          "words": 188,
+          "spans": 36,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 2 \u00b7 D E S I G N 3 Four players, three actions,"
+        },
+        {
+          "page": 4,
+          "chars": 754,
+          "words": 145,
+          "spans": 29,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 3 \u00b7 S C R I P T E D R E S"
+        },
+        {
+          "page": 5,
+          "chars": 894,
+          "words": 158,
+          "spans": 35,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 4 \u00b7 M O D E L R E S U L T"
+        },
+        {
+          "page": 6,
+          "chars": 959,
+          "words": 219,
+          "spans": 25,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 5 \u00b7 H E L D - O U T V A L"
+        },
+        {
+          "page": 7,
+          "chars": 928,
+          "words": 198,
+          "spans": 21,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 6 \u00b7 P A Y O F F S 7 In this game,"
+        },
+        {
+          "page": 8,
+          "chars": 1127,
+          "words": 203,
+          "spans": 39,
+          "spans_outside_page": [],
+          "size_pt": [
+            960.0,
+            540.0
+          ],
+          "preview": "0 7 \u00b7 W H A T A N A L A R M"
+        }
+      ]
+    },
+    "claim_crosscheck": {
+      "items": [
+        {
+          "deck_value": "0 / 180",
+          "source_value": "0/180",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "179 / 180",
+          "source_value": "179/180",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "178 / 180",
+          "source_value": "178/180",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "130 / 180",
+          "source_value": "130/180",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "116 / 180",
+          "source_value": "116/180",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "180 / 180",
+          "source_value": "180/180",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "19 / 27",
+          "source_value": "19/27",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "5 / 9",
+          "source_value": "5/9",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "7 / 9",
+          "source_value": "7/9",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "+2/27",
+          "source_value": "2/27",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "+1/9",
+          "source_value": "1/9",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "0.192",
+          "source_value": "0.192309",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "1,440",
+          "source_value": "1,440",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "2,880",
+          "source_value": "2,880",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "720/720",
+          "source_value": "720/720",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "+0.061",
+          "source_value": "0.061111",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "+0.156",
+          "source_value": "0.155556",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "0.58",
+          "source_value": "0.58",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "57 of 180",
+          "source_value": "57",
+          "in_deck": true,
+          "in_source_pdf": true
+        },
+        {
+          "deck_value": "160 of 180",
+          "source_value": "160",
+          "in_deck": true,
+          "in_source_pdf": true
+        }
+      ],
+      "all_present_in_source": true,
+      "all_present_in_deck": true,
+      "unmatched": []
+    },
+    "identity": {
+      "identity_terms_found": [],
+      "clean": true,
+      "note": "Deck is branded to the project only; the paper cover retains authorship."
+    }
+  },
+  "files": {
+    "project_image": {
+      "path": "C:\\Users\\Benjamin\\Downloads\\ai-collusion-detection\\presentation\\project-image.png",
+      "bytes": 208967,
+      "sha256": "37caaa63febce364d4b0b1800a6a7f477256a420afbe65fd5b12ed5d1fdd6ffe"
+    },
+    "pptx": {
+      "path": "C:\\Users\\Benjamin\\Downloads\\ai-collusion-detection\\presentation\\research-slides.pptx",
+      "bytes": 67869,
+      "sha256": "b4639f75cae301d9612c84d4e86a3ef0630f12004c40a3356a05407c841ac5f2"
+    },
+    "pdf": {
+      "path": "C:\\Users\\Benjamin\\Downloads\\ai-collusion-detection\\presentation\\research-slides.pdf",
+      "bytes": 381731,
+      "sha256": "8ac81038f8b777022aa87a06a715f7eb4099b8284450ac63a05e0cdcf71fd7f7"
+    },
+    "builder_scripts": [
+      {
+        "path": "C:\\Users\\Benjamin\\Downloads\\ai-collusion-detection\\presentation\\build_project_image.py",
+        "sha256": "c8b66730a531ec50f666e20c716aa75ce9e9180548a5611be7c5773de90c9c10"
+      },
+      {
+        "path": "C:\\Users\\Benjamin\\Downloads\\ai-collusion-detection\\presentation\\build_deck.py",
+        "sha256": "5815d2b55b44b2be7707186e8ed932b8477a4e30694dde723dee39e84597c555"
+      }
+    ]
+  },
+  "warnings": [],
+  "limitations": [
+    "Rendered PDF inspected programmatically (text spans, page count); no visual review was used.",
+    "Text-fit slack is computed from font metrics, not from PowerPoint's layout engine."
+  ]
+}

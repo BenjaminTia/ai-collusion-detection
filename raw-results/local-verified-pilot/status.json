@@ -1,0 +1,9 @@
+{
+  "stage": "stopped_acquisition_timeout",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "cloud_jobs_started": 0,
+  "reason": "Transfer exceeded intended bound; no inference executed. Thread-pool shutdown waited for outstanding network calls.",
+  "verified_weights": false,
+  "model_decisions": 0
+}

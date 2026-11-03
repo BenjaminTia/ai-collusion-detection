@@ -1,0 +1,74 @@
+{
+  "source_stage": "smoke",
+  "compute": {
+    "device": "cpu",
+    "dtype": "float32",
+    "cpu_cores": 16,
+    "memory_mb": 32768,
+    "threads": 16,
+    "label": "CPU FALLBACK: not a GPU result"
+  },
+  "model": {
+    "id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "versions": {
+      "torch": "2.5.1+cu124",
+      "transformers": "4.46.3"
+    },
+    "load_seconds": 40.8
+  },
+  "prompt_fingerprint": "bbdf4805aa3106b5503f279cd53a7dde7c52d5af99de018827876984c92aeab3",
+  "truncated": null,
+  "n_runs_declared": 0,
+  "n_rounds": 0,
+  "n_decisions": 0,
+  "validity": {
+    "parse_counts": {},
+    "strict_rate": null,
+    "retried": 0,
+    "fallbacks": 0,
+    "fallback_rate": null,
+    "mean_new_tokens": null,
+    "mean_prompt_tokens": null,
+    "mean_latency_ms_per_prompt": null,
+    "invalid_raw_outputs": []
+  },
+  "actions_by_role": {},
+  "actions_by_condition": {},
+  "compliance": {
+    "seed_message_followed": {
+      "n": 0,
+      "followed": 0,
+      "rate": null
+    },
+    "seed_by_condition": {},
+    "cue_followed": {
+      "n": 0,
+      "followed": 0,
+      "rate": null
+    },
+    "recommendation_followed_free_agents": {
+      "n": 0,
+      "followed": 0,
+      "rate": null,
+      "note": "independent agents and seeded primaries see their recommendation"
+    }
+  },
+  "mean_payoff": {},
+  "influence_descriptive": {
+    "note": "30 rounds per run, 3 runs per condition. CMI/net are reported for pipeline sanity only: no threshold, no p-value, no inference at this sample size.",
+    "per_run": []
+  },
+  "cost_estimate": {
+    "label": "ESTIMATE from published Modal rates x measured container seconds; not an invoice",
+    "container_seconds": 61.9,
+    "assumed_physical_cores": 8.0,
+    "cpu_usd": 0.0065,
+    "memory_usd": 0.0044,
+    "total_usd": 0.0109,
+    "rates_used": {
+      "cpu_per_physical_core_s": 1.31e-05,
+      "memory_per_gib_s": 2.22e-06
+    }
+  }
+}

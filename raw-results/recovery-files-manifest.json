@@ -1,0 +1,37 @@
+[
+  {
+    "path": "llm_protocol.py",
+    "sha256": "430ba48c7a2418ae41c294beeae10388b3bef6f1e3707697cc623757e2128c8a",
+    "bytes": 6852
+  },
+  {
+    "path": "tests/test_permutation.py",
+    "sha256": "fe0b377526dd42d7e659511eb8dc73b2bd952ac3b6ba6c638b1e673caae5499d",
+    "bytes": 5802
+  },
+  {
+    "path": "tests/test_llm_protocol.py",
+    "sha256": "3c6d73bd4f98d2dd9dd4688c9229fe38925a66d1ed5dc71e358411574a154125",
+    "bytes": 6100
+  },
+  {
+    "path": "src/permutation_calibration.py",
+    "sha256": "e71b855c24694b8c0d268175a0b0ee1b6f21d8d3806a3193c071fe2ae65484b2",
+    "bytes": 9486
+  },
+  {
+    "path": "llm/engine.py",
+    "sha256": "e92a374bf6c379de39147f623acd0736bff71f248db0fcdc990a082a0ccb9665",
+    "bytes": 9628
+  },
+  {
+    "path": "results/tests-recovery-final.log",
+    "sha256": "7c2759c6ca20a29272f35fa20d922ad46741d8810dda82449ea93501e21ec095",
+    "bytes": 4403
+  },
+  {
+    "path": "results/permutation/fresh-trajectories.jsonl",
+    "sha256": "e648006b1cf8cae29b6b1568facd8c0bea124ad35fdbf6fe417d8259934002f5",
+    "bytes": 16981326
+  }
+]

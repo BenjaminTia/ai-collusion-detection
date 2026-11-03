@@ -1,0 +1,20 @@
+{
+  "data_type": "SCRIPTED SIMULATION ONLY; not LLM evidence",
+  "null": "independent within-observed-state column permutation, per run",
+  "permutations_per_run_cell": 199,
+  "threshold_rule": "higher 95th percentile of the max over six pairs across permutations, floored at zero; strict >",
+  "fresh_evaluation_seeds": "3000000+index (original grid used 2000000+)",
+  "permutation_seed_rule": "5000000 + 100000*condition_index + run_index",
+  "runs_per_condition": 100,
+  "rounds": 1000,
+  "original_thresholds": {
+    "('none', 'cmi')": 0.007003106361158469,
+    "('none', 'net')": 0.004595804829381767,
+    "('full', 'cmi')": 0.014265870084769232,
+    "('full', 'net')": 0.006625708991805784,
+    "('0.1', 'cmi')": 0.013103120068570909,
+    "('0.1', 'net')": 0.006212304052287737,
+    "('0.3', 'cmi')": 0.013283961018336485,
+    "('0.3', 'net')": 0.0056573702706503946
+  }
+}

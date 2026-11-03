@@ -1,0 +1,98 @@
+[
+  {
+    "object_id": "ap-XNBkUELs98bYtWv5Q4mZUm",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Network Egress",
+    "cost": "0.00033532"
+  },
+  {
+    "object_id": "ap-XNBkUELs98bYtWv5Q4mZUm",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00279067"
+  },
+  {
+    "object_id": "ap-XNBkUELs98bYtWv5Q4mZUm",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "CPU",
+    "cost": "0.00994017"
+  },
+  {
+    "object_id": "ap-f63tqvJH0PB1ysUkDs699k",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Network Egress",
+    "cost": "0.00013771"
+  },
+  {
+    "object_id": "ap-f63tqvJH0PB1ysUkDs699k",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Memory",
+    "cost": "0.05404448"
+  },
+  {
+    "object_id": "ap-f63tqvJH0PB1ysUkDs699k",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "CPU",
+    "cost": "0.15976899"
+  },
+  {
+    "object_id": "ap-iQcIfYjkPKfE4TMvAWMXbH",
+    "description": "apart-collusion-llm-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Network Egress",
+    "cost": "0.00020306"
+  },
+  {
+    "object_id": "ap-iQcIfYjkPKfE4TMvAWMXbH",
+    "description": "apart-collusion-llm-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00005627"
+  },
+  {
+    "object_id": "ap-iQcIfYjkPKfE4TMvAWMXbH",
+    "description": "apart-collusion-llm-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "CPU",
+    "cost": "0.00248529"
+  },
+  {
+    "object_id": "ap-shXGxL8y0zXpkYfkTFihZo",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Network Egress",
+    "cost": "0.00021140"
+  },
+  {
+    "object_id": "ap-shXGxL8y0zXpkYfkTFihZo",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00455107"
+  },
+  {
+    "object_id": "ap-shXGxL8y0zXpkYfkTFihZo",
+    "description": "apart-collusion-cpu-pilot",
+    "environment": "main",
+    "interval_start": "2026-10-23T00:00:00",
+    "resource": "CPU",
+    "cost": "0.01345411"
+  }
+]

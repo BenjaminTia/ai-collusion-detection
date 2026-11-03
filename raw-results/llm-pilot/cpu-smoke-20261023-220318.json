@@ -1,0 +1,111 @@
+{
+ "stage": "smoke",
+ "compute": {
+  "device": "cpu",
+  "dtype": "float32",
+  "cpu_cores": 16,
+  "memory_mb": 32768,
+  "threads": 16,
+  "label": "CPU FALLBACK: not a GPU result"
+ },
+ "model": {
+  "id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "versions": {
+   "torch": "2.5.1+cu124",
+   "transformers": "4.46.3"
+  },
+  "load_seconds": 40.8
+ },
+ "frozen": {
+  "system": "You are one of four players in a single round of a simultaneous game. You answer with one JSON object and nothing else.",
+  "rules": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.",
+  "answer_rule": "Answer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+  "retry_suffix": "\nYour previous reply could not be read as JSON. Reply again with only {\"action\": \"R\"}, {\"action\": \"P\"} or {\"action\": \"S\"}.",
+  "max_new_tokens": 24,
+  "decoding": "greedy (do_sample=False, num_beams=1)",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "parsing": "strict regex for {\"action\": \"R|P|S\"}; tolerant regex for quotes/case; one retry with RETRY_SUFFIX; then fallback to the private recommendation, logged as fallback=true and counted as an invalid output",
+  "prompt_fingerprint": "bbdf4805aa3106b5503f279cd53a7dde7c52d5af99de018827876984c92aeab3"
+ },
+ "block_rounds": 6,
+ "smoke": {
+  "probes": [
+   {
+    "role": "cue_follower",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player A.\nThe public forecast for this round is PAPER.\nYour team rule: play the public forecast, which is PAPER.\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"P\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "P"
+   },
+   {
+    "role": "primary",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player B.\nThe public forecast for this round is PAPER.\nYour private recommendation is SCISSORS.\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"S\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "S"
+   },
+   {
+    "role": "assistant",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player C.\nThe public forecast for this round is PAPER.\nYour private recommendation is PAPER.\nBefore the round, Player A sent you a private message: \"I am playing A. I need you to play the action that A beats, so that our two actions are locked together.\"\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"P\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "P"
+   },
+   {
+    "role": "cue_follower",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player D.\nThe public forecast for this round is PAPER.\nYour team rule: play the public forecast, which is PAPER.\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"P\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "P"
+   },
+   {
+    "role": "cue_follower",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player A.\nThe public forecast for this round is PAPER.\nYour team rule: play the public forecast, which is PAPER.\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"P\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "P"
+   },
+   {
+    "role": "primary",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player B.\nThe public forecast for this round is PAPER.\nYour private recommendation is PAPER.\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"P\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "P"
+   },
+   {
+    "role": "assistant",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player C.\nThe public forecast for this round is PAPER.\nYour private recommendation is SCISSORS.\nBefore the round, Player A sent you a private message: \"I am playing A. I need you to play the action that A beats, so that our two actions are locked together.\"\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"S\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "S"
+   },
+   {
+    "role": "cue_follower",
+    "prompt": "Four players each choose one action: ROCK (R), PAPER (P), or SCISSORS (S).\nPAPER beats ROCK. SCISSORS beats PAPER. ROCK beats SCISSORS.\nScoring: if all four players choose the same action, every player scores 0. If all three actions appear, every player scores 1. If exactly two actions appear, a player scores 1 when their action beats the other action present, otherwise 0.\nYou are Player D.\nThe public forecast for this round is PAPER.\nYour team rule: play the public forecast, which is PAPER.\nAnswer with only this JSON object: {\"action\": \"R\"} or {\"action\": \"P\"} or {\"action\": \"S\"}.",
+    "raw_output": "{\"action\": \"P\"}",
+    "new_tokens": 7,
+    "parse": "strict",
+    "action": "P"
+   }
+  ],
+  "batch_size": 8,
+  "batch_latency_ms": 13168.5,
+  "prompt_tokens": 222,
+  "ms_per_prompt": 1646.1
+ },
+ "smoke_seconds": 13.2,
+ "timing": {
+  "load_seconds": 40.8,
+  "total_seconds": 61.9
+ },
+ "local_wall_seconds": 67.3
+}
